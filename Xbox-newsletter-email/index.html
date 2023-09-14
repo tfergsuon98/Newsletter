@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Microsoft Newsletter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
    <!-- <link rel="stylesheet" href="/css/main.css">  -->
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,23 +14,23 @@
     /* DESKTOP */
     @media only screen and (min-width:960px){
       .container{
-        width: 960px;
+        width: 960px !important;
       }
       .header img {
       width: 100% !important;
     }
 
     .menu-table {
-    text-align: center;
+    text-align: center !important;
   }
 
   .menu-table td {
     display: inline-block !important;
-    margin-right: 160px;
+    margin-right: 160px !important;
   }
 
   .menu-table td:last-child {
-    margin-right: 0;
+    margin-right: 0 !important;
   }
 
     .middle img {
@@ -83,7 +83,7 @@
   /* MIDSIZES */
 @media only screen and (max-width:960px){
 .container{
-        width: 600px;
+        width: 600px !important;
       }
       .header img {
       width: 100% !important;
@@ -145,7 +145,7 @@
   /* MOBILE */
 @media only screen and (max-width:600px){
 .container{
-        width: 100%;
+        width: 100% !important;
 }
 
         .header img {
@@ -153,21 +153,21 @@
     }
 
     .menu-table {
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: center !important;
   }
 
   .menu-table td:first-child,
   .menu-table td:last-child {
-    display: none;
+    display: none !important;
   }
 
   .menu-table td:nth-child(2),
   .menu-table td:nth-child(3) {
-    display: table-cell;
-    width: calc(50% - 30px); /* Adjust the spacing by changing the value here */
-    text-align: center;
-    padding: 0 15px; /* Adjust the spacing by changing the value here */
+    display: table-cell !important;
+    width: calc(50% - 30px) !important; /* Adjust the spacing by changing the value here */
+    text-align: center !important;
+    padding: 0 15px !important; /* Adjust the spacing by changing the value here */
   }
 
 
@@ -223,6 +223,7 @@
 
     <!-- start of html email -->
     
+    
     <table width="100%" border="0" cellspacing="0" cellpadding="0" >
         <tr>
           <td>
@@ -230,30 +231,42 @@
             <table class="container" width="600" align="center" border="0" cellspacing="0" cellpadding="0" >
               <!-- start of header row -->
               <tr>
-                <td>
-                  
+                <td  align="center">
+                <!--[if mso]>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background: black;">
+                    <tr>
+                      <td align="center" style="font-family: Helvetica, sans-serif; color: white; font-size: 24px; margin: 0; font-weight: 500; line-height: 1.3;">
+                  <![endif]-->
+                 
                   <table class="header" width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="background: black; padding: 5px 10px 5px 10px;">
-                    <td align="center" style="font-family: Helvetica, sans-serif; color: white; padding: 25px 0 10px; font-size: 24px; margin: 0; font-weight: 500; line-height: 1.3;">
+                    <td align="center"  style="font-family: Helvetica, sans-serif; color: white; padding: 25px 0 10px; font-size: 24px; margin: 0; font-weight: 500; line-height: 1.3; display:inline-block; width:100%;">
                         Join us on June 11 at 10 AM PT for the latest on Xbox, Game Pass, Starfield, and more |<a href="https://view.engage.xbox.com/?qs=deabecd18e01df2f8f48785eb6d451bce8437fff4a1e0fac16a3b5bb645c0ab94a8820a995b9835708b3e8008dc8af411a7ed1384c1a0fdd6fb88f836f9ff097e3f8513ceeb086d0a189842b9a4cd50b" style="color: white;">View as webpage</a>
                      
                     </td>              
                   </table>
+                   <!--[if mso>
+                      </td>
+                    </tr>
+                  </table>
+                  <![endif]-->
+                  
+                
               <!-- start of middle column -->
 <table class="middle" width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="background: #107c10; padding-bottom: 0; margin-bottom: 0;">
-  <tr>  
+  <tr>
     <td style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: #7d7d7d; padding-top: 10px;">
       <table class="menu-table" width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
         <tr>
-          <td align="center" style="padding-bottom: 10px;">
+          <td align="center">
             <a href="https://www.xbox.com/en-US/xbox-game-pass?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1" style="font-size: 14px; font-weight: 800; text-transform: uppercase; text-decoration: none; color: #fff;">Game Pass</a>
           </td>
-          <td align="center" style="padding-bottom: 10px;">
+          <td align="center">
             <a href="https://www.xbox.com/en-US/browse/games?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1" style="font-size: 14px; font-weight: 800; text-transform: uppercase; text-decoration: none; color: #fff;">Games</a>
           </td>
-          <td align="center" style="padding-bottom: 10px;">
+          <td align="center">
             <a href="https://www.xbox.com/en-US/accessories?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1" style="font-size: 14px; font-weight: 800; text-transform: uppercase; text-decoration: none; color: #fff;">Accessories</a>
           </td>
-          <td align="center" style="padding-bottom: 10px;">
+          <td align="center">
             <a href="https://support.xbox.com/en-US/?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1" style="font-size: 14px; font-weight: 800; text-transform: uppercase; text-decoration: none; color: #fff;">Support</a>
           </td>
         </tr>
@@ -263,22 +276,21 @@
   <tr>
     <td align="center" valign="bottom" style="padding-top: 10px; padding-bottom: 0;">
       <a href="https://www.xbox.com/en-US/xbox-games-showcase-starfield-direct?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
-      <img href="https://www.xbox.com/en-US/?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1" src="https://i.postimg.cc/hGZNQmd6/header.jpg" alt="image of top xbox logo" style="display: block; max-width: 100%;">
+        <img src="https://i.postimg.cc/v8hptt4q/header.jpg" alt="image of top xbox logo" style="display: block; max-width: 100%;">
       </a>
     </td>
   </tr>
 </table>
 <!-- end of middle column -->
 
-
 <!-- start of xbox row -->
 <tr>
   <td>
-    <table class="xbox-table" width="100%" align="center" border="0" cellspacing="0" style="padding: 0; background: #222222; border: none;">
+    <table class="xbox-table" width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="padding: 0; background: #222222; border: none;">
       <tr>
         <td style="border: none;">
           <a href="https://www.xbox.com/en-US/xbox-games-showcase-starfield-direct?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
-          <img href="https://www.xbox.com/en-US/xbox-games-showcase-starfield-direct?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1" src="https://i.postimg.cc/5Nv1csC0/header-2.jpg" alt="image of xbox logo" style="width: 100%; display: block;">
+            <img src="https://i.postimg.cc/ydPrn78g/header-2.jpg" alt="image of xbox logo" style="width: 100%; display: block;">
           </a>
         </td>
       </tr>
@@ -286,6 +298,7 @@
   </td>
 </tr>
 <!-- end of xbox row -->
+
 
 
 
@@ -300,7 +313,7 @@
                       <a href="https://www.xbox.com/en-US/xbox-games-showcase-starfield-direct?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1" style="text-decoration: none;">
                       <h1  style="font-size: 80px; margin: 0; line-height: 1; padding: 0 0 5px 20px; text-transform: uppercase; color: white;">Save The <br> Date</h1>
                       </a>
-                      <img src="https://i.postimg.cc/pLHvPKfB/header-jump.png"  style=" margin: 0; padding: 8px 0 20px 21px;"></img>
+                      <img src="https://i.postimg.cc/hPGNyQxS/header-jump.png" alt="image of header"  style=" margin: 0; padding: 8px 0 20px 21px;"></img>
                     </td>                 
                   </table>
                 </td>
@@ -310,11 +323,14 @@
                  <!-- start of showcase row -->
               <tr>
                 <td>
+                
                   <table class="showcase-left" width="100%" align="Left" border="0" cellspacing="0" cellpadding="0" style="background: #1f2024; padding: 0 15px 40px 15px;">
-                    <td valign="top" align="left" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white; padding: 0 40px 0 0;">
-                      <p style="font-size: 18px; margin: 0; line-height: 1.5; padding: 0 0 5px 25px; text-transform: uppercase;">The <strong>Xbox Games Showcase</strong> debuts on <strong>June 11 at 10 AM PT</strong>! Tune in to get hyped about what's coming to Xbox and Xbox Game Pass. Watch the live event and experience each exciting moment as it unfolds. Immediately following the Showcase, stay tuned for <strong>Starfield Direct</strong>, where you'll get the latest look at Starfield ahead of the game's launch.</p>
+                    <td valign="top" align="left"  style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white; padding: 0 40px 0 0;">
+                      <p  style="font-size: 18px; margin: 0; line-height: 1.5; padding: 0 0 5px 25px; text-transform: uppercase;">The <strong>Xbox Games Showcase</strong> debuts on <strong>June 11 at 10 AM PT</strong>! Tune in to get hyped about what's coming to Xbox and Xbox Game Pass. Watch the live event and experience each exciting moment as it unfolds. Immediately following the Showcase, stay tuned for <strong>Starfield Direct</strong>, where you'll get the latest look at Starfield ahead of the game's launch.</p>
                     </td>                 
                   </table>
+                  <!--[if mso]>
+
                 </td>
               </tr>
                  <!-- end of showcase row -->
@@ -327,7 +343,7 @@
                             <td>
                               <a href="https://assets.xboxservices.com/assets/90/37/903734cc-3b8f-4a26-9f8f-e492e5dfec4c.ics?n=611231000.ics&ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1" style="padding: 10px 30px; min-width: 60px; font-size: 20px; display: flex; align-items: center; text-transform: uppercase; text-decoration: none; border: 0; text-align: left; color: #054b16; background-color: #9bf00b; font-weight: 800;">
                                 Add to Calendar
-                                <img src="https://i.postimg.cc/G3TnYXzQ/right-arrow-dark.png" style="margin-left: 10px;">
+                                <img src="https://i.postimg.cc/Znsstj3J/right-arrow-dark.png" alt="image of an arrow" style="margin-left: 10px;">
                               </a>                              
                             </td>
                             </tr>
@@ -335,7 +351,7 @@
                               <td align="left" style="padding-top: 65px;">
                                 <a href="https://www.xbox.com/en-US/xbox-games-showcase-starfield-direct?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1" style="padding: 10px 30px; min-width: 50px; font-size: 20px; display: flex; align-items: center; justify-content: center; text-transform: uppercase; text-decoration: none; border: 2px solid #9bf00b; text-align: center; color: #9bf00b; background-color: #1f2024; font-weight: 800;">
                                   Learn More
-                                  <img src="https://i.postimg.cc/qqKfT7gY/right-arrow-light.png" style="margin-left: 10px;">
+                                  <img src="https://i.postimg.cc/1tPjp8s1/right-arrow-light.png" alt="image of an arrow" style="margin-left: 10px;">
                                 </a>
                               </td>
                               
@@ -352,7 +368,7 @@
                   <tr>
                     <td>
                       <a href="https://gear.xbox.com/?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
-                      <img src="https://i.postimg.cc/tT1w3gdT/gear.jpg" alt="image of xbox merchandise" style="width: 100%;">
+                      <img src="https://i.postimg.cc/nrFNtCPG/gear.jpg" alt="image of xbox merchandise" style="width: 100%;">
                       </a>
                     </td>
                   </tr>
@@ -381,7 +397,7 @@
                             <td>
                               <a href="https://gear.xbox.com/?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1" style="padding: 10px 30px; min-width: 60px; font-size: 20px; display: flex; align-items: center; text-transform: uppercase; text-decoration: none; border: 0; text-align: left; color: #054b16; background-color: #9bf00b; font-weight: 800;">
                                 Shop Now
-                                <img src="https://i.postimg.cc/G3TnYXzQ/right-arrow-dark.png" style="margin-left: 10px;">
+                                <img src="https://i.postimg.cc/Znsstj3J/right-arrow-dark.png" alt="image of an arrow" style="margin-left: 10px;">
                               </a>                              
                             </td>
                         </tr>
@@ -396,7 +412,7 @@
                   <tr>
                     <td>
                       <a href="https://www.xbox.com/en-US/community/fanfest?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
-                      <img src="https://i.postimg.cc/0yxTTPvW/fanfest.jpg" alt="image of xbox logo" style="width: 100%;">
+                      <img src="https://i.postimg.cc/Gpn7C4BT/fanfest.jpg" alt="image of xbox logo" style="width: 100%;">
                       </a>
                     </td>
                   </tr>
@@ -425,7 +441,7 @@
                             <td>
                               <a href="https://www.xbox.com/en-US/community/fanfest?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1" style="padding: 10px 30px; min-width: 60px; font-size: 20px; display: flex; align-items: center; text-transform: uppercase; text-decoration: none; border: 0; text-align: left; color: #054b16; background-color: #9bf00b; font-weight: 800;">
                                 Learn More
-                                <img src="https://i.postimg.cc/G3TnYXzQ/right-arrow-dark.png" style="margin-left: 10px;">
+                                <img src="https://i.postimg.cc/Znsstj3J/right-arrow-dark.png" alt="image of an arrow" style="margin-left: 10px;">
                               </a>                              
                             </td>
                         </tr>
@@ -435,113 +451,175 @@
                  <!-- end of fanfest shop row -->
 
                       <!-- start of footer header row -->
-            <tr>
-                <td>
-                  <table class="one-solution-table" width="100%" align="center" border="0" cellspacing="0" style="padding: 0; margin-bottom: 0; background: #000000;">
-                  <tr>
-                    <td>
-                      <img src="https://i.postimg.cc/zGjs56XJ/footer-header.jpg" alt="image of xbox logo" style="width: 100%;">
-                    </td>
-                  </tr>
-                  </table>
-                </td>
-              </tr>
-              <!-- end of footer header row -->
-
-              <!-- start of follow row -->
-              <tr>
-                <td>
-                  <table class="header-middle" width="100%" border="0" cellspacing="0" cellpadding="0" style="background: #000000; padding: 0px 15px 0 15px; margin-top: -9px; margin-bottom: -35px;">
-                    <td align="center" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white;">
-                      <h1 style="font-size: 30px; font-weight: 900; margin: 0; line-height: 1; padding: 0 0 5px; text-transform: uppercase;">Follow</h1>
-                      <img src="https://i.postimg.cc/T3J61hQv/header-jump-mini.png"  style=" margin: 0; padding: 0 0 25px;"></img>
-                    </td>                 
-                  </table>
-                </td>
-              </tr>
-                 <!-- end of follow row -->
-
-                 <!-- start of footer row -->
-            <tr>
-              <td>
-                <table class="footer-table" width="100%" align="Left" border="0" cellspacing="0" style="padding: 25px 0 0 0; background: #000000;">
-                 <tr>
-                  <td>
-                    <table class="icon-table" align="center" width="250px" align="Left" border="0" cellspacing="0">
-                    <tr>
-                      <td align="center" style="padding: 0 5px 15px 0;">
-                        <a href="https://twitter.com/Xbox?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1"><img src="https://i.postimg.cc/RFyrytCK/twitter-icon.png" alt="twitter-icon"></a>
-                      </td>
-                      <td align="center" style="padding: 0 20px 15px 45px;">
-                        <a href="https://www.facebook.com/xbox?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1"><img src="https://i.postimg.cc/Yq1cDj5L/facebook-icon.png" alt="facebook-icon"></a>
-                      </td>
-                      <td align="center" style="padding: 0 10px 15px 75px;">
-                        <a href="https://www.youtube.com/user/xbox?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1"><img src="https://i.postimg.cc/HsGDtbhC/youtube-icon.png" alt="youtube-icon"></a>
-                      </td>
-                      <td align="center" style="padding: 0 10px 15px 50px;">
-                        <a href="https://www.instagram.com/xbox/?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1"><img src="https://i.postimg.cc/QM6ZgPR6/instagram-icon.png" alt="instagram-icon"></a>
-                      </td>
-                    </tr>
-                    </table>
-                  </td>
-                 </tr>
-                </table>
-                </td>
-            </tr>
-            <!-- end of footer row -->
-
-            <!-- start of rating row -->
-            <tr>
-              <td>
-                <table class="logo-table" width="100%" align="Left" border="0" cellspacing="0" style=" background: #000000;">
-                  
-                   <tr>
-                    <td align="center">
-                      <table class="left-column" width="50%" align="Left" border="0" cellspacing="0" style="padding: 15px 15px 0 35px; background: #000000;">
-                       
-                       <tr>
-                        <td align="left" class="left-store">
-                          <a href="https://www.esrb.org/?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
-                        <img src="https://i.postimg.cc/85jQZ4GT/rating.jpg" alt="image of rating pending">
-                          </a>
-                      </td>
-                       </tr>
-                      </table>
-
-                      <table class="right-column" width="50%" align="right" border="0" cellspacing="0" style="padding: 65px 15px 0 15px; background: #000000;">
-                        
-                         <tr>
-                          <td align="right" class="right-store">
-                          <a href="https://www.microsoft.com/en-US/?UID=10443C7192B76973CE6D6319F19AC02AA1&ocid=games_persimmontuneinreminder_2023&ql=3">
-                          <img src="https://i.postimg.cc/3wrHv7b4/Microsoft-logo.png" alt="image of Microsoft-logo">
-                          </a>
+                      <tr>
+                        <td>
+                          <table class="one-solution-table" width="100%" align="center" border="0" cellspacing="0" style="padding: 0; margin-bottom: 0; background: #000000;">
+                          <tr>
+                            <td style="padding-top: 0; max-width: 100%; font-size: 0; line-height: 0; margin: 0; padding: 0;">
+                              <img src="https://i.postimg.cc/kgb1zQ5d/footer-header.jpg" alt="image of xbox logo" style="max-width: 100%;">
+                            </td>
+                          </tr>
+                          </table>
                         </td>
-                         </tr>
-                       </table>
-                    </td>
-                   </tr>
-                </table>
-              </td>
-            </tr>
-            <!-- end of rating row -->
+                      </tr>
+                      <!-- end of footer header row -->
+        
+                      <!-- start of follow row -->
+                      <tr>
+                        <td>
+                          <table class="header-middle" width="100%" border="0" cellspacing="0" cellpadding="0" style="background: #000000; padding: 0px 15px 0 15px; margin-top: -9px; margin-bottom: -35px;">
+                            <td align="center" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white;">
+                              <h1 style="font-size: 30px; font-weight: 900; margin: 0; line-height: 1; padding: 0 0 5px; text-transform: uppercase;">Follow</h1>
+                              <img src="https://i.postimg.cc/MKrNhZb1/header-jump-mini.png" alt="image of an arrow"  style=" margin: 0; padding: 0 0 25px;"></img>
+                            </td>                 
+                          </table>
+                        </td>
+                      </tr>
+                         <!-- end of follow row -->
+        
+                         <!-- start of footer row -->
+<tr>
+<td>
+<!--[if mso]>
+<table class="footer-table" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+      <table class="icon-table" align="center" width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="padding: 25px 0 0 0; background: #000000;">
+        <tr>
+          <td align="center" style="padding: 0 10px;">
+            <a href="https://twitter.com/Xbox?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
+              <img src="https://i.postimg.cc/m2h6Nffk/twitter-icon.png" alt="twitter-icon" style="display: block; margin: 0 auto;">
+            </a>
+          </td>
+          <td align="center" style="padding: 0 10px;">
+            <a href="https://www.facebook.com/xbox?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
+              <img src="https://i.postimg.cc/3J6ftSYB/facebook-icon.png" alt="facebook-icon" style="display: block; margin: 0 auto;">
+            </a>
+          </td>
+          <td align="center" style="padding: 0 10px;">
+            <a href="https://www.youtube.com/user/xbox?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
+              <img src="https://i.postimg.cc/NGdzHGnZ/youtube-icon.png" alt="youtube-icon" style="display: block; margin: 0 auto;">
+            </a>
+          </td>
+          <td align="center" style="padding: 0 10px;">
+            <a href="https://www.instagram.com/xbox/?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
+              <img src="https://i.postimg.cc/g037XV9K/instagram-icon.png" alt="instagram-icon" style="display: block; margin: 0 auto;">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<![endif]-->
+<!--[if !mso]> <!-- For non-Outlook clients -->
+<table class="footer-table" width="100%" align="Left" border="0" cellspacing="0" cellpadding="0" style="padding: 25px 0 0 0; background: #000000;">
+  <tr>
+    <td>
+      <table class="icon-table" align="center" width="250px" align="center" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" style="padding: 0 10px;">
+            <a href="https://twitter.com/Xbox?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
+              <img src="https://i.postimg.cc/m2h6Nffk/twitter-icon.png" alt="twitter-icon" style="display: block; margin: 0 auto;">
+            </a>
+          </td>
+          <td align="center" style="padding: 0 10px;">
+            <a href="https://www.facebook.com/xbox?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
+              <img src="https://i.postimg.cc/3J6ftSYB/facebook-icon.png" alt="facebook-icon" style="display: block; margin: 0 auto;">
+            </a>
+          </td>
+          <td align="center" style="padding: 0 10px;">
+            <a href="https://www.youtube.com/user/xbox?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
+              <img src="https://i.postimg.cc/NGdzHGnZ/youtube-icon.png" alt="youtube-icon" style="display: block; margin: 0 auto;">
+            </a>
+          </td>
+          <td align="center" style="padding: 0 10px;">
+            <a href="https://www.instagram.com/xbox/?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
+              <img src="https://i.postimg.cc/g037XV9K/instagram-icon.png" alt="instagram-icon" style="display: block; margin: 0 auto;">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- <![endif]-->
+</td>
+</tr>
+<!-- end of footer row -->
 
-            <!-- start of unsubscribe row-->
-             <tr>
-              <td>
-                <table class="header" width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="background: black; padding: 5px 10px 5px 10px;">
-                  <td align="center" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white; padding: 25px 0 10px; font-size: 16px; margin: 0; font-weight: 500; line-height: 1;">
-                    <a href="https://account.microsoft.com/profile/unsubscribe" style="color: white;">Unsubscribe</a> |<a href="https://privacy.microsoft.com/en-us/privacystatement" style="color: white;">Privacy Statement</a>
-                    <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white; font-weight: 400; font-size: 16px; line-height: 1;">Microsoft Corporation</p> 
-                    <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white; font-weight: 400; font-size: 16px; line-height: 1;">One Microsoft Way</p> 
-                    <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white; font-weight: 400; font-size: 16px; line-height: 1;">Redmond, WA 98052</p> 
-                    <br /> <p align="left" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white; font-weight: 400; font-size: 16px; line-height: 1.5;">© 2023 Microsoft Corporation. All Rights Reserved. All trademarks are the property of their respective owners.</p>
-                  </td>              
-                </table>
-              </td>
-             </tr>
-             <!-- End of unsubscribe row -->
+        
+                    <!-- start of rating row -->
+<tr>
+<td>
+<!--[if mso]>
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50%" align="center" valign="top" style="background: #000000; padding: 0;">
+      <a href="https://www.esrb.org/?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
+        <img src="https://i.postimg.cc/Bnrynhz6/rating.jpg" alt="image of rating pending" style="display: block; max-width: 100%; margin: 0;">
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top" style="background: #000000; padding: 0;">
+      <a href="https://www.microsoft.com/en-US/?UID=10443C7192B76973CE6D6319F19AC02AA1&ocid=games_persimmontuneinreminder_2023&ql=3">
+        <img src="https://i.postimg.cc/kg6z9rfz/Microsoft-logo.png" alt="image of Microsoft-logo" style="display: block; max-width: 100%; margin: 0;">
+      </a>
+    </td>
+  </tr>
+</table>
+<![endif]-->
+<!--[if !mso]--> 
+<table class="logo-table" width="100%" align="left" border="0" cellspacing="0" cellpadding="0" style="background: #000000;">
+  <tr>
+    <td align="center">
+      <table class="left-column" width="50%" align="left" border="0" cellspacing="0" cellpadding="0" style="padding: 15px 15px 0 35px; background: #000000;">
+        <tr>
+          <td align="left" class="left-store">
+            <a href="https://www.esrb.org/?ocid=games_persimmontuneinreminder_2023&UID=10443C7192B76973CE6D6319F19AC02AA1">
+              <img src="https://i.postimg.cc/Bnrynhz6/rating.jpg" alt="image of rating pending">
+            </a>
+          </td>
+        </tr>
+      </table>
+      <table class="right-column" width="50%" align="right" border="0" cellspacing="0" cellpadding="0" style="padding: 65px 15px 0 15px; background: #000000;">
+        <tr>
+          <td align="right" class="right-store">
+            <a href="https://www.microsoft.com/en-US/?UID=10443C7192B76973CE6D6319F19AC02AA1&ocid=games_persimmontuneinreminder_2023&ql=3">
+              <img src="https://i.postimg.cc/kg6z9rfz/Microsoft-logo.png" alt="image of Microsoft-logo">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- <![endif]-->
+</td>
+</tr>
+<!-- end of rating row -->
+
+        
+                    <!-- start of unsubscribe row-->
+                     <tr>
+                      <td>
+                        <table class="header" width="100%" align="center" border="0" cellspacing="0" cellpadding="0" style="background: black; padding: 5px 10px 5px 10px;">
+                          <td align="center" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white; padding: 25px 0 10px; font-size: 16px; margin: 0; font-weight: 500; line-height: 1;">
+                            <a href="https://account.microsoft.com/profile/unsubscribe" style="color: white;">Unsubscribe</a> |<a href="https://privacy.microsoft.com/en-us/privacystatement" style="color: white;">Privacy Statement</a>
+                            <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white; font-weight: 400; font-size: 16px; line-height: 1;">Microsoft Corporation</p> 
+                            <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white; font-weight: 400; font-size: 16px; line-height: 1;">One Microsoft Way</p> 
+                            <p style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white; font-weight: 400; font-size: 16px; line-height: 1;">Redmond, WA 98052</p> 
+                            <br /> <p align="left" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; color: white; font-weight: 400; font-size: 16px; line-height: 1.5;">© 2023 Microsoft Corporation. All Rights Reserved. All trademarks are the property of their respective owners.</p>
+                          </td>              
+                        </table>
+                      </td>
+                     </tr>
+                     <!-- End of unsubscribe row -->
+
+
+
                 </td>
               </tr>
             </table>
               <!-- end of header -->
 </body>
+</html>
